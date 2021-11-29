@@ -1,0 +1,204 @@
+<resources>
+
+    <!-- Main app theme -->
+    <style name="AppTheme"
+        parent="@style/Theme.AppCompat">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_color_invert</item>
+        <item name="android:windowBackground">@color/primary_window_background</item>
+        <item name="colorAccent">@color/primary_color_dark</item>
+    </style>
+
+    <style name="MainActionBar"
+        parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/primary_color</item>
+        <item name="titleTextStyle">@style/TitleTextStyle</item>
+    </style>
+
+    <!-- Transparent actionbar theme -->
+    <style name="TransparentActionBarTheme" parent="@style/Theme.AppCompat">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarStyle">@style/TransparentActionBar</item>
+
+        <item name="windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/TransparentActionBar</item>
+    </style>
+
+    <!-- action bar title text -->
+    <style name="TitleTextStyle"
+        parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/primary_text_color</item>
+    </style>
+
+    <!-- action bar tab text -->
+    <style name="TabTextStyle"
+        parent="@style/Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textColor">@color/primary_text_color</item>
+    </style>
+
+    <!-- general styles for the action bar -->
+    <style name="TransparentActionBar"
+        parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@null</item>
+        <!-- Support library compatibility -->
+        <item name="background">@null</item>
+    </style>
+
+    <!-- Transparent activity theme -->
+
+    <style name="Transparent" parent="@style/Theme.AppCompat">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- Main window style -->
+
+    <style name="MainSlidingTabLayoutMenu">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/main_sliding_tab_height</item>
+        <item name="android:background">@color/primary_color</item>
+    </style>
+
+    <style name="MainViewPagerContent">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">match_parent</item>
+        </style>
+
+        <style name="MainRelativeLayoutNavDrawerContainer">
+            <item name="android:layout_width">fill_parent</item>
+            <item name="android:layout_height">fill_parent</item>
+            <item name="android:layout_gravity">start</item>
+            <item name="android:background">@color/nav_drawer_background</item>
+        </style>
+
+        <style name="MainListViewNavDrawer">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">match_parent</item>
+            <item name="android:layout_gravity">start</item>
+            <item name="android:choiceMode">singleChoice</item>
+            <item name="android:divider">@drawable/nav_drawer_divider</item>
+            <item name="android:dividerHeight">1px</item>
+        </style>
+
+
+    <!-- item -->
+
+        <style name="MainDrawerHeaderRow">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">@dimen/main_nav_drawer_list_header_height</item>
+            <item name="android:weightSum">1.0</item>
+            <item name="android:background">@color/nav_drawer_header_background</item>
+        </style>
+
+        <style name="MainDrawerItemRow">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">@dimen/main_nav_drawer_list_item_height</item>
+            <item name="android:weightSum">1.0</item>
+            <item name="android:background">@drawable/nav_drawer_background_selector</item>
+        </style>
+
+        <style name="MainDrawerHeaderTitle">
+            <item name="android:layout_width">0dp</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_gravity">center_vertical</item>
+            <item name="android:gravity">left</item>
+            <item name="android:paddingLeft">20dp</item>
+            <item name="android:layout_weight">1.0</item>
+            <item name="android:textSize">@dimen/main_nav_drawer_list_header_txt_size</item>
+            <item name="android:textColor">@color/nav_drawer_header_text_color</item>
+        </style>
+
+        <style name="MainDrawerItemImgIcon">
+            <item name="android:layout_width">0dp</item>
+            <item name="android:layout_height">@dimen/main_nav_drawer_list_item_icon_height</item>
+            <item name="android:layout_weight">0.2</item>
+            <item name="android:layout_gravity">center</item>
+            <item name="android:scaleType">fitCenter</item>
+        </style>
+
+        <style name="MainDrawerItemTextTitle">
+            <item name="android:layout_width">0dp</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_weight">0.8</item>
+            <item name="android:layout_gravity">center_vertical</item>
+            <item name="android:textSize">@dimen/main_nav_drawer_list_item_title_txt_size</item>
+            <item name="android:textColor">@color/nav_drawer_text_selector</item>
+        </style>
+
+    <!-- Default themes -->
+        <style name="DefaultButton">
+            <item name="android:textColor">@color/button_text</item>
+            <item name="android:background">@drawable/default_button_selector</item>
+        </style>
+
+        <style name="DefaultSpinner">
+            <item name="android:background">@drawable/default_spinner_selector</item>
+            <item name="android:textColor">@color/spinner_text</item>
+        </style>
+
+    <!-- Setting activity theme -->
+
+    <style name="SettingItemLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">@color/dialog_text</item>
+        <item name="android:weightSum">1.0</item>
+    </style>
+
+    <!-- Schedule action detail theme -->
+
+    <!-- List items -->
+
+    <style name="ListText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dialog_text</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="ListButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:background">@drawable/default_button_selector</item>
+    </style>
+
+    <style name="ListSpinner">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/default_spinner_selector</item>
+        <item name="android:textColor">@color/spinner_text</item>
+    </style>
+
+    <style name="ListCheckBox">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="ListVerticalDivider">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:background">@color/list_view_divider</item>
+    </style>
+
+
+
+    <style name="KillButton">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:background">@drawable/default_button_selector</item>
+    </style>
+
+
+
+
+</resources>

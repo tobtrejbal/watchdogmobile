@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary_color">#0095cc</color>
+    <color name="primary_color_dark">#017caa</color>
+    <color name="primary_text_color">#FFFFFF</color>
+    <color name="primary_text_color_invert">#000</color>
+    <color name="primary_window_background">#FFFFFF</color>
+
+    <color name="action_bar_underline">#FFFFFF</color>
+    <color name="action_bar_unselected_text">#C6E7BF</color>
+    <color name="action_bar_selected_background">#FFFFFF</color>
+
+    <color name="action_bar_search_hint">#FFFFFF</color>
+
+    <color name="nav_drawer_header_background">@color/primary_color_dark</color>
+    <color name="nav_drawer_header_text_color">@color/primary_text_color</color>
+    <color name="nav_drawer_background">#FFFFFF</color>
+    <color name="nav_drawer_selected_text">#000</color>
+    <color name="nav_drawer_unselected_text">@color/primary_text_color_invert</color>
+    <color name="nav_drawer_selected_background">#BBBBBB</color>
+
+    <color name="button_text">@color/primary_text_color</color>
+    <color name="spinner_text">@color/primary_text_color_invert</color>
+
+
+    <color name="dialog_background">@color/primary_window_background</color>
+    <color name="dialog_text">#323e48</color>
+    <color name="dialog_title">@color/primary_text_color_invert</color>
+
+    <color name="list_view_divider">#323e48</color>
+
+    <color name="day_cells_color">@color/primary_color</color>
+    <color name="hour_cells_odd_color">@color/primary_color</color>
+    <color name="hour_cells_even_color">@color/primary_color_dark</color>
+    <color name="empty_cells">#d9d9d9</color>
+
+</resources>

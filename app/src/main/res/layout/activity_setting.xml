@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="beforeDescendants"
+                android:focusableInTouchMode="true"
+                >
+
+                <LinearLayout
+                    android:id="@+id/setting_item_sample_frequency"
+                    android:layout_alignParentTop="true"
+                    style="@style/SettingItemLayout"
+                    >
+
+                    <TextView
+                        android:layout_weight="0.6"
+                        android:paddingLeft="10dp"
+                        android:text="@string/label_setting_sample_frequency"
+                        style="@style/ListText"/>
+
+                    <View
+                        style="@style/ListVerticalDivider"/>
+
+                    <EditText
+                        android:id="@+id/setting_item_txt_sample_frequency"
+                        android:layout_weight="0.4"
+                        style="@style/ListText"/>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/setting_divider_1"
+                    android:layout_below="@+id/setting_item_sample_frequency"
+                    android:background="@drawable/default_list_divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/setting_item_send_frequency"
+                    android:layout_below="@+id/setting_divider_1"
+                    style="@style/SettingItemLayout"
+                    >
+
+                    <TextView
+                        android:layout_weight="0.6"
+                        android:paddingLeft="10dp"
+                        android:text="@string/label_setting_send_frequency"
+                        style="@style/ListText"/>
+
+                    <View
+                        style="@style/ListVerticalDivider"/>
+
+                    <EditText
+                        android:id="@+id/setting_item_txt_send_frequency"
+                        android:layout_weight="0.4"
+                        style="@style/ListText"/>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/setting_divider_2"
+                    android:layout_below="@+id/setting_item_send_frequency"
+                    android:background="@drawable/default_list_divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/setting_item_server_address"
+                    android:layout_below="@+id/setting_divider_2"
+                    style="@style/SettingItemLayout"
+                    >
+
+                    <TextView
+                        android:layout_weight="0.6"
+                        android:paddingLeft="10dp"
+                        android:text="@string/label_setting_server_address"
+                        style="@style/ListText"/>
+
+                    <View
+                        style="@style/ListVerticalDivider"/>
+
+                    <EditText
+                        android:id="@+id/setting_item_txt_server_address"
+                        android:layout_weight="0.4"
+                        style="@style/ListText"/>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/setting_divider_3"
+                    android:layout_below="@+id/setting_item_server_address"
+                    android:background="@drawable/default_list_divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/setting_item_server_port"
+                    android:layout_below="@+id/setting_divider_3"
+                    style="@style/SettingItemLayout"
+                    >
+
+                    <TextView
+                        android:layout_weight="0.6"
+                        android:paddingLeft="10dp"
+                        android:text="@string/label_setting_server_port"
+                        style="@style/ListText"/>
+
+                    <View
+                        style="@style/ListVerticalDivider"/>
+
+                    <EditText
+                        android:id="@+id/setting_item_txt_server_port"
+                        android:layout_weight="0.4"
+                        style="@style/ListText"/>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/setting_divider_4"
+                    android:layout_below="@+id/setting_item_server_port"
+                    android:background="@drawable/default_list_divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/setting_item_user_login"
+                    android:layout_below="@+id/setting_divider_4"
+                    style="@style/SettingItemLayout"
+                    >
+
+                    <TextView
+                        android:layout_weight="0.6"
+                        android:paddingLeft="10dp"
+                        android:text="@string/label_setting_user_login"
+                        style="@style/ListText"/>
+
+                    <View
+                        style="@style/ListVerticalDivider"/>
+
+                    <EditText
+                        android:id="@+id/setting_item_txt_user_login"
+                        android:layout_weight="0.4"
+                        style="@style/ListText"/>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/setting_divider_5"
+                    android:layout_below="@+id/setting_item_user_login"
+                    android:background="@drawable/default_list_divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/setting_item_user_password"
+                    android:layout_below="@+id/setting_divider_5"
+                    style="@style/SettingItemLayout"
+                    >
+
+                    <TextView
+                        android:layout_weight="0.6"
+                        android:paddingLeft="10dp"
+                        android:text="@string/label_setting_user_password"
+                        style="@style/ListText"/>
+
+                    <View
+                        style="@style/ListVerticalDivider"/>
+
+                    <EditText
+                        android:id="@+id/setting_item_txt_user_password"
+                        android:layout_weight="0.4"
+                        style="@style/ListText"/>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/setting_divider_6"
+                    android:layout_below="@+id/setting_item_user_password"
+                    android:background="@drawable/default_list_divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/setting_item_horizontal_menu"
+                    android:layout_below="@+id/setting_divider_6"
+                    style="@style/SettingItemLayout"
+                    >
+
+                    <TextView
+                        android:layout_weight="0.6"
+                        android:paddingLeft="10dp"
+                        android:text="@string/label_setting_horizontal_menu"
+                        style="@style/ListText"/>
+
+                    <View
+                        style="@style/ListVerticalDivider"/>
+
+                    <CheckBox
+                        android:id="@+id/setting_item_checkbox_horizontal_menu"
+                        android:layout_weight="0.4"
+                        style="@style/ListCheckBox"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/setting_divider_7"
+                    android:layout_below="@+id/setting_item_horizontal_menu"
+                    android:background="@drawable/default_list_divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/setting_item_app_mode"
+                    android:layout_below="@+id/setting_divider_7"
+                    style="@style/SettingItemLayout"
+                    >
+
+                    <TextView
+                        android:layout_weight="0.6"
+                        android:paddingLeft="10dp"
+                        android:text="@string/label_setting_horizontal_menu"
+                        style="@style/ListText"/>
+
+                    <View
+                        style="@style/ListVerticalDivider"/>
+
+                    <CheckBox
+                        android:id="@+id/setting_item_checkbox_app_mode"
+                        android:layout_weight="0.4"
+                        style="@style/ListCheckBox"
+                        />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WatchDog</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="main_tab_status_app">Stav aplikace</string>
+    <string name="main_tab_status_pacient">Stav pacienta</string>
+
+    <string name="menu_title_about">O aplikaci</string>
+    <string name="menu_title_setting">Nastavení</string>
+
+    <string name="nav_drawer_header_menu">Menu</string>
+    <string name="nav_drawer_header_app">Aplikace</string>
+    <string name="nav_drawer_item_settings">Nastavení</string>
+    <string name="nav_drawer_item_about">O Aplikaci</string>
+    <string name="nav_drawer_item_navigate">Navigace do učebny</string>
+
+    <string name="btn_change_faculty">Zmeň fakultu</string>
+    <string name="btn_center_position">Moje pozice</string>
+    <string name="btn_center_school_city">Hradec Králové</string>
+    <string name="title_navigate_dialog">Navigace</string>
+    <string name="navigate_label_building">Budova:</string>
+    <string name="navigate_label_source">Počátek:</string>
+    <string name="navigate_label_target">Cíl:</string>
+    <string name="map_param_label_building">Budova:</string>
+    <string name="map_param_label_date">Datum:</string>
+    <string name="map_param_label_time">Čas:</string>
+    <string name="btn_navigate">Naviguj</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_edit">Editovat</string>
+    <string name="btn_cancel">Zrušit</string>
+    <string name="btn_save">Uložit</string>
+    <string name="btn_edit_schedule_list">Seznam</string>
+    <string name="btn_load_schedule_list">Nahraj</string>
+    <string name="btn_add_schedule_action">Přidej událost</string>
+    <string name="btn_detail_list">Detail</string>
+    <string name="btn_delete_list">Smazat</string>
+
+    <string name="floor_label">Patro</string>
+    <string name="building_label">Budova</string>
+
+    <string name="dialog_parameters_class_map_title">Vyber datum a budovu</string>
+
+    <string name="msg_confirm_delete">Opravdu chcete smazat událost?</string>
+    <string name="title_delete_confirm">Pozor!</string>
+
+    <string name="title_schedule_list">Rozvrh</string>
+
+    <string name="menu_drawer_open">Header</string>
+    <string name="menu_drawer_close">Header</string>
+
+    <string name="load_data_title">Přihlaš se</string>
+    <string name="load_data_hint_stag">stag id</string>
+    <string name="load_data_hint_password">heslo</string>
+    <string name="load_data_hint_login">uhk_login</string>
+    <string name="load_data_btn_load">nahraj</string>
+    <string name="load_data_btn_cancel">zrušit</string>
+
+    <string name="label_teacher">Učitel:</string>
+    <string name="label_name">Zkratka:</string>
+    <string name="label_place">Místo konání:</string>
+    <string name="label_capacity">Kapacita:</string>
+    <string name="label_occupancy">Naplnění:</string>
+    <string name="label_action_type">Typ události:</string>
+    <string name="label_start_time">Začátek:</string>
+    <string name="label_end_time">Konec:</string>
+    <string name="label_day">Den:</string>
+
+    <string name="btn_start">Zapnout</string>
+
+    <string name="label_setting_sample_frequency">Frekvence vzorkování</string>
+    <string name="label_setting_send_frequency">Frekvence odeslání dat</string>
+    <string name="label_setting_server_address">Adresa serveru</string>
+    <string name="label_setting_server_port">Port serveru</string>
+    <string name="label_setting_user_login">Login</string>
+    <string name="label_setting_user_password">Heslo</string>
+    <string name="label_setting_horizontal_menu">Horizontální menu</string>
+    <string name="label_setting_app_mode">Mód aplikace</string>
+
+    <string name="label_app_status_last_send">Naposledny odesláno</string>
+    <string name="label_app_status_success_send">Poslední pokus</string>
+    <string name="label_app_status_sample_frequency">Frekvence vzorkování</string>
+    <string name="label_app_status_clear_buffer_frequency">Frekvence odesílání</string>
+    <string name="label_app_status_sample_taken_count">Počet vzorků</string>
+    <string name="label_app_status_database_count">Počet vzorků v db</string>
+
+</resources>

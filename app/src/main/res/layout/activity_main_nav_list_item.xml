@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainDrawerItemRow"
+    >
+
+    <!-- icon -->
+    <ImageView
+        style="@style/MainDrawerItemImgIcon"
+        android:id="@+id/main_nav_drawer_list_view_item_img"
+        />
+
+    <!-- title -->
+    <TextView
+        style="@style/MainDrawerItemTextTitle"
+        android:id="@+id/main_nav_drawer_list_view_item_txt_title"
+        />
+
+</LinearLayout>

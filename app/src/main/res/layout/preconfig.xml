@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Login"
+        android:id="@+id/txt_login_lbl"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="49dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/txt_login"
+        android:layout_below="@+id/txt_login_lbl"
+        android:layout_alignLeft="@+id/txt_login_lbl"
+        android:layout_alignStart="@+id/txt_login_lbl" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Heslo"
+        android:id="@+id/txt_password_lb"
+        android:layout_below="@+id/txt_login"
+        android:layout_alignLeft="@+id/txt_login"
+        android:layout_alignStart="@+id/txt_login"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/txt_password"
+        android:layout_below="@+id/txt_password_lb"
+        android:layout_alignLeft="@+id/txt_password_lb"
+        android:layout_alignStart="@+id/txt_password_lb" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Adresa serveru"
+        android:id="@+id/txt_server_address_lbl"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/txt_password"
+        android:layout_alignStart="@+id/txt_password" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/txt_server_address"
+        android:layout_below="@+id/txt_server_address_lbl"
+        android:layout_alignLeft="@+id/txt_server_address_lbl"
+        android:layout_alignStart="@+id/txt_server_address_lbl" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Port serveru"
+        android:id="@+id/txt_server_port_lbl"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/txt_server_address"
+        android:layout_alignLeft="@+id/txt_server_address"
+        android:layout_alignStart="@+id/txt_server_address" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/txt_server_port"
+        android:layout_alignStart="@+id/txt_server_port_lbl"
+        android:layout_below="@+id/txt_server_port_lbl"
+        android:layout_alignLeft="@+id/txt_server_address" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ulož"
+        android:id="@+id/btn_save"
+        android:layout_below="@+id/txt_server_port"
+        android:layout_alignLeft="@+id/txt_server_port"
+        android:layout_alignStart="@+id/txt_server_port"
+        android:layout_marginTop="43dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zrušit"
+        android:id="@+id/btn_cancel"
+        android:layout_alignTop="@+id/btn_save"
+        android:layout_toRightOf="@+id/txt_server_address_lbl"
+        android:layout_toEndOf="@+id/txt_server_address_lbl"
+        android:layout_marginLeft="40dp" />
+
+</RelativeLayout>

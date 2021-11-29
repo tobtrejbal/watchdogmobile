@@ -1,0 +1,144 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:id="@+id/last_time_send"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/dialog_text"
+        android:weightSum="1.0">
+
+        <TextView
+            android:layout_weight="0.6"
+            android:paddingLeft="10dp"
+            android:text="@string/label_app_status_last_send"
+            style="@style/ListText"/>
+
+        <TextView
+            android:id="@+id/app_status_txt_last_send"
+            android:layout_weight="0.4"
+            style="@style/ListText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/last_success_send"
+        android:layout_below="@+id/last_time_send"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/dialog_text"
+        android:weightSum="1.0">
+
+        <TextView
+            android:layout_weight="0.6"
+            android:paddingLeft="10dp"
+            android:text="@string/label_app_status_last_send"
+            style="@style/ListText"/>
+
+        <TextView
+            android:id="@+id/app_status_txt_success_send"
+            android:layout_weight="0.4"
+            style="@style/ListText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sample_frequency"
+        android:layout_below="@+id/last_success_send"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/dialog_text"
+        android:weightSum="1.0">
+
+        <TextView
+            android:layout_weight="0.6"
+            android:paddingLeft="10dp"
+            android:text="@string/label_app_status_sample_frequency"
+            style="@style/ListText"/>
+
+        <TextView
+            android:id="@+id/app_status_txt_sample_frequency"
+            android:layout_weight="0.4"
+            style="@style/ListText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/clear_buffer_frequency"
+        android:layout_below="@+id/sample_frequency"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/dialog_text"
+        android:weightSum="1.0">
+
+        <TextView
+            android:layout_weight="0.6"
+            android:paddingLeft="10dp"
+            android:text="@string/label_app_status_clear_buffer_frequency"
+            style="@style/ListText"/>
+
+        <TextView
+            android:id="@+id/app_status_txt_clear_buffer_frequency"
+            android:layout_weight="0.4"
+            style="@style/ListText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sample_taken_counter"
+        android:layout_below="@+id/clear_buffer_frequency"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/dialog_text"
+        android:weightSum="1.0">
+
+        <TextView
+            android:layout_weight="0.6"
+            android:paddingLeft="10dp"
+            android:text="@string/label_app_status_sample_taken_count"
+            style="@style/ListText"/>
+
+        <TextView
+            android:id="@+id/app_status_txt_samle_taken_counter"
+            android:layout_weight="0.4"
+            style="@style/ListText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/database_count"
+        android:layout_below="@+id/sample_taken_counter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/dialog_text"
+        android:weightSum="1.0">
+
+        <TextView
+            android:layout_weight="0.6"
+            android:paddingLeft="10dp"
+            android:text="@string/label_app_status_database_count"
+            style="@style/ListText"/>
+
+        <TextView
+            android:id="@+id/app_status_txt_database_count"
+            android:layout_weight="0.4"
+            style="@style/ListText"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/shutdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        style="@style/KillButton"
+        android:text="Vypnout"/>
+    
+</RelativeLayout>
